@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator</title>
+</head>
+<body>
+    <script>
+        //Operators
+
+    //1.Arithmetic (+,-,*,/,%)
+    let num1=60
+    let num2=40
+    document.write("----- Arithmetic Ope.<br>-----(+)",num1+num2)
+    document.write("<br>----- (-) <br>",num1-num2)
+    document.write("<br>-----(*) <br>",num1*num2)
+    document.write("<br>-----(/) <br>",num1/num2)
+    document.write("<br>-----(%) <br>",num1%num2)
+
+
+    //2.Assignment (=,+=,-=,*=,/=,%=)
+    let n1=120
+    let n2=70
+    document.write("<br><br><br><br>----- Assignment Ope.<br>-----(+=)",num1+=num2)
+    document.write("<br>----- (-=) <br>",num1-=num2)
+    document.write("<br>-----(*=) <br>",num1*=num2)
+    document.write("<br>-----(/=) <br>",num1/=num2)
+    document.write("<br>-----(%=) <br>",num1%=num2)
+
+    //3.Comparison Ope (==,!=,===,!==,<,>,<=,>=)
+    let nm=23
+    let n=56
+    document.write("<br><br><br>----Comparison ----<br>",nm<n)
+    document.write("<br>-------<br>",nm!=n)
+    document.write("<br>-------<br>",nm==n)
+
+    //4.Logical  ope (&&, || , !)
+    let name='Foram'
+    let lname='goriya'
+    document.write("<br>---------Logical-------<br>",name&&lname)
+    document.write("<br>---------Logical-------<br>",name||lname)
+    document.write("<br><br><br>---------Logical-------<br>",!lname)
+
+    //5.typeOf 
+    let sub='Javascript'
+    document.write("<br><br><br>---------typeOf-------<br><br>",typeof(sub))
+
+    //6.Ternary 
+    const age = 18;
+    const result = age >= 18 ? "Adult" : "Minor";
+    document.write("<br>",result);
+
+    </script>
+</body>
+</html>
